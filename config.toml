@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Harrison Van Roy"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "🏡"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Notes"
+    pre = "🗒"
+    url = "/notes/"
+    weight = 2
+
+[params]
+  custom_css = ["/css/style.css"]
