@@ -15,4 +15,5 @@ title = "Harrison Van Roy"
     weight = 2
 
 [params]
+  description = "My personal site"
   custom_css = ["/css/style.css"]

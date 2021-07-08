@@ -1,12 +1,5 @@
+<a href="{{ .Site.BaseURL }}"><img class="avatar-img" src="/img/avatar.jpg"></a>
+<h1>{{ .Site.Title }}</h1>
+<p>{{ .Site.Params.description }}</p>
+<i class="fab fa-github"></i>
 
-<nav>
-  <ul>
-    {{ range .Site.Menus.main }}
-    <li>
-      <a aria-label="{{ .Name }}" href="{{.URL}}" >
-        {{ .Pre }} {{ .Name }}
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-</nav>

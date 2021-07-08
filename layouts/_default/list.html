@@ -1,7 +1,6 @@
-{{ define "main" }}
-{{ .Content }}
-
-{{ range .Pages }}
-  {{ .Title }}
-{{ end }}
+{{ define "main" }} 
+  {{ .Content }} 
+  {{ range .Pages }} 
+    {{ .Title }} 
+  {{ end }} 
 {{ end }}
