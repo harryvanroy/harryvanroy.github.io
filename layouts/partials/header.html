@@ -1,5 +1,12 @@
-<a href="{{ .Site.BaseURL }}"><img class="avatar-img" src="/img/avatar.jpg"></a>
-<h1>{{ .Site.Title }}</h1>
-<p>{{ .Site.Params.description }}</p>
-<i class="fab fa-github"></i>
-
+<header class="header">
+  <img class="avatar-img" src="/img/avatar.jpg" />
+  <h1>{{ .Site.Title }}</h1>
+  <nav class="nav-menu">
+    <a class="nav-menu-item" href="/">Home</a>
+    <a class="nav-menu-item" href="/posts">Posts</a>
+  </nav>
+  <div class="social">
+    <a href="https://github.com/harryvanroy"><i class="fab fa-github fa-2x"></i></a>
+    <a href="https://www.linkedin.com/in/harrison-van-roy-5508061bb/"><i class="fab fa-linkedin fa-2x"></i></a>
+  </div>
+</header>

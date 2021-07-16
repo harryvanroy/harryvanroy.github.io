@@ -2,18 +2,6 @@ baseURL = "https://harryvanroy.github.io/"
 languageCode = "en-us"
 title = "Harrison Van Roy"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "🏡"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Notes"
-    pre = "🗒"
-    url = "/notes/"
-    weight = 2
-
 [params]
   description = "My personal site"
   custom_css = ["/css/style.css"]
