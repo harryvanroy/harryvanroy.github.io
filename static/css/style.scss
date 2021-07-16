@@ -1,15 +1,20 @@
+$primary-colour: #df4576;
+$base-colour: #303030;
+$nav-colour: #121212;
+$text-colour: #e4f0fb;
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background-color: #303030;
-  color: #e4f0fb;
+  background-color: $base-colour;
+  color: $text-colour;
 }
 
 .avatar-img {
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
-  border: 0.5rem solid #df4576;
+  border: 0.5rem solid $primary-colour;
 }
 
 .main-container {
@@ -18,34 +23,32 @@ body {
 
 .header {
   padding: 2.5em;
-  background: #121212;
+  background: $nav-colour;
   text-align: center;
 }
 
 .nav-menu-item {
   text-decoration: none;
   color: inherit;
-}
-
-.nav-menu-item + .nav-menu-item:before {
-  content: " - ";
-  padding: 0 10px;
+  & + .nav-menu-item:before {
+    content: " - ";
+    padding: 0 10px;
+  }
 }
 
 .social {
   margin-top: 1rem;
-}
-
-.social i {
-  padding: 0 0.5rem;
+  i {
+    padding: 0 0.5rem;
+  }
 }
 
 .fab {
-  color: #df4576;
+  color: $primary-colour;
 }
 
 .posts-list-item-title {
-  color: #df4576;
+  color: $primary-colour;
   text-decoration: none;
 }
 
@@ -57,9 +60,9 @@ body {
     width: 16rem;
     min-height: 100vh;
   }
+
   .main-container {
     max-width: 65rem;
     margin-left: 25rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
