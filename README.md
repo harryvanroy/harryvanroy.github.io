@@ -1,5 +1,5 @@
 # harryvanroy.github.io
 
-My personal website. Mainly created as an excuse to learn Hugo and Go templating.
+My personal website.
 
 🚧  Currently under construction. 🚧
